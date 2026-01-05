@@ -16,12 +16,28 @@ button {
   font-weight: normal;
   font-style: normal;
 }
-
+.color-black {
+    color: #333333;
+}
 .color-orange {
     color: #FD6E0A;
 }
+.flex {
+    display: flex;
+}
+.flex-jc {
+    justify-content: center;
+}
+.flex-ai {
+    align-items: center;
+}
+.flex-sb {
+    justify-content: space-between;
+}
 header {
-    background: #FFF8F3;
+    background: url(../images/header_bg.png) right bottom no-repeat, url(../images/developer.png) 23px center no-repeat;
+    background-color: #FFF8F3;
+    padding-top: 50px;
 }
 
 .container {
@@ -34,7 +50,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
 }
 .logo h2 {
     font-size: 45px;
@@ -57,7 +72,6 @@ nav .menu li a {
     color: #474747;
 }
 .btn {
-    width: 150px;
     font-size: 20px;
     height: 65px;
     font-weight: 700;
@@ -66,4 +80,32 @@ nav .menu li a {
     color: #fff;
     border: none;
     padding: 0 35px;
+}
+
+.banner {
+    margin: 46px 38px 0 230px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-content h1 {
+    font-size: 85px;
+    color: #181818;
+    color: #181818;
+    margin: 5px 0 20px;
+}
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner-btns {
+    gap: 30px;
 }
